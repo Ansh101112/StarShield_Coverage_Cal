@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coverage Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Coverage Calculator</h1>
+        <h2>Anti Viral Products</h2>
+        <label for="product">Select a Product:</label>
+        <select id="product">
+            <option value="" disabled selected>Select</option>
+            <option value="StarVirusShield">Star Virus Shield</option>
+            <option value="StarVirusShieldNano">Star Virus Shield Nano Coating</option>
+        </select>
+
+        <label for="area">Room Area (sqft):</label>
+        <input type="number" id="area" placeholder="Enter room area">
+
+        <button id="calculate">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

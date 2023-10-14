@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coverage Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Coverage Calculator</h1>
+        <h2>Heat Protective </h2>
+        <label for="product">Select a Product:</label>
+        <select id="product">
+            <option value="" disabled selected>Select</option>
+            <option value="StarCoolShield+">Star Cool Shield +</option>
+            <option value="StarCoolShield">Star Cool Shield</option>
+            <option value="StarCoolShieldIndustrial">Star Cool Shield Industrial</option>
+            <option value="StarCoolShieldWalls">Star Cool Shield Walls</option>
+            <option value="StarHeatShieldTransparent">Star Heat Shield Transparent</option>
+            <option value="StarThermalShield">Star Thermal Shield </option>
+            <option value="StarPaintShield">Star Paint Shield + </option>
+            <option value="StarInsulationShield">Star Insulation Shield</option>
+            <option value="StarInsulationShieldIndustrial">Star Insulation ShieldIndustrial</option>
+            <option value="StarInsulationShieldFoam">Star InsulationShield Foam</option>
+            <option value="StarVaccumShield">Star Vaccum Shield</option>
+            <option value="StarIceShield">Star Ice Shield</option>
+        </select>
+
+        <label for="area">Room Area (sqft):</label>
+        <input type="number" id="area" placeholder="Enter room area">
+
+        <button id="calculate">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

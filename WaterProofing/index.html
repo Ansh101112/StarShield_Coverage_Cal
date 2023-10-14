@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coverage Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Coverage Calculator</h1>
+        <h2>Innovative Products</h2>
+        <label for="product">Select a Product:</label>
+        <select id="product">
+            <option value="" disabled selected>Select</option>
+            <option value="StarWaterShield">Star Water Shield</option>
+            <option value="StarAquaShield">Star Aqua Shield</option>
+            <option value="StarAquaShield+">Star Aqua Shield +"</option>
+            <option value="StarAquaShieldtransparent">Star Aqua Shield Transparent</option>
+            <option value="StarWaterProofi">Star Water Proof(interior)</option>
+            <option value="StarWaterProofe">Star Water Proof(exterior)</option>
+            <option value="StarWaterSealIndustrial">Star Water Seal Industrial</option>
+            <option value="StarPolyUrea">Star Poly Urea Shield</option>
+            <option value="StarCoctreteShield">Star Concrete Shield</option>
+            <option value="StarRubberShield">Star Rubber Shield</option>
+
+        </select>
+
+        <label for="area">Room Area (sqft):</label>
+        <input type="number" id="area" placeholder="Enter room area">
+
+        <button id="calculate">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
